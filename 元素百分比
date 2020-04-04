@@ -1,0 +1,7 @@
+1、margin、padding的百分比
+结论：margin、padding的百分比是按照父元素的 （宽度） 来计算的
+
+2、transform之translate
+结论：transform中translate，如果传入百分比参数，计算是分别根据 （自身的宽高） 来进行的
+
+3.top、left是基于父元素的
